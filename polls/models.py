@@ -2,6 +2,9 @@ import datetime
 
 from django.db import models
 from django.utils import timezone
+from django.conf import settings 
+
+DJANGO_SETTINGS_MODULES='mysite.settings'
 
 
 class Question(models.Model):
